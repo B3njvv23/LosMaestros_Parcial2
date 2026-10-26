@@ -1,0 +1,103 @@
+{
+  "nosotros": [
+    {
+      "kind": "title",
+      "text": "Sobre Nosotros"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Ferretería Los Maestros es un negocio familiar ubicado en La Serena, Región de Coquimbo, con más de 22 años de trayectoria en el rubro ferretero."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Nuestro propósito es proveer los mejores materiales de construcción, herramientas eléctricas y manuales, gasfitería, electricidad y artículos de ferretería en general. Nos enorgullece atender de manera cercana y eficiente tanto a clientes particulares que buscan mejorar su hogar, como a contratistas y maestros de obra que requieren altos volúmenes y disponibilidad constante para sus proyectos."
+    },
+    {
+      "kind": "heading",
+      "text": "Equipo Desarrollador"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Este proyecto web ha sido construido por el siguiente equipo de trabajo:"
+    },
+    {
+      "kind": "list",
+      "items": [
+        "Benjamin Hernández - Desarrollador Frontend",
+        "Matias Rojas - QA / Testing de Cuentas"
+      ]
+    }
+  ],
+  "novedad1": [
+    {
+      "kind": "title",
+      "text": "Cómo proteger tus herramientas del óxido"
+    },
+    {
+      "kind": "image",
+      "src": "/img/oxido.jpg",
+      "alt": "Herramientas con presencia de óxido"
+    },
+    {
+      "kind": "paragraph",
+      "text": "El clima húmedo puede ser uno de los principales enemigos de las herramientas de trabajo, especialmente de aquellas que contienen componentes metálicos expuestos."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Para prolongar su vida útil y mantener un buen rendimiento durante los trabajos, es importante realizar una mantención periódica."
+    },
+    {
+      "kind": "heading",
+      "text": "Recomendaciones"
+    },
+    {
+      "kind": "list",
+      "items": [
+        "Limpieza constante: limpia las herramientas después de utilizarlas con un paño seco para retirar polvo, humedad y restos de materiales.",
+        "Lubricación: aplica una pequeña cantidad de aceite protector en las piezas metálicas y mecanismos que lo requieran.",
+        "Almacenamiento adecuado: guarda las herramientas en un lugar seco y, cuando sea posible, utiliza cajas o contenedores que las protejan de la humedad."
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Una mantención sencilla puede ayudar a conservar durante más tiempo las herramientas utilizadas tanto en trabajos domésticos como profesionales."
+    }
+  ],
+  "novedad2": [
+    {
+      "kind": "title",
+      "text": "Llegó el nuevo stock de tuberías PVC"
+    },
+    {
+      "kind": "image",
+      "src": "/img/tuberias.jpg",
+      "alt": "Stock de tuberías y conexiones PVC"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Sabemos que nuestros clientes contratistas necesitan contar con disponibilidad de materiales para poder desarrollar sus trabajos y proyectos."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Por este motivo hemos renovado y ampliado nuestro inventario correspondiente a productos de gasfitería."
+    },
+    {
+      "kind": "heading",
+      "text": "Productos disponibles"
+    },
+    {
+      "kind": "list",
+      "items": [
+        "Tuberías de PVC hidráulico en diferentes medidas.",
+        "Tuberías de PVC sanitario para instalaciones y sistemas de evacuación.",
+        "Codos, coplas, tee y diferentes conexiones.",
+        "Adhesivos y productos relacionados con instalaciones de PVC."
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Los clientes pueden revisar nuestros productos desde el catálogo del sitio o consultar directamente en Ferretería Los Maestros en La Serena."
+    }
+  ]
+}
+
