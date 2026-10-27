@@ -5,16 +5,17 @@ export default defineConfig({
   test: {
     testTimeout: 15000,
     environment: "jsdom",
-    setupFiles: ["./src/test/setup.ts"],
+    setupFiles: ["./src/tests/setup.ts"],
+    include: ["src/tests/**/*.{test,spec}.{ts,tsx}"],
+    exclude: [".pnpm-store/**", "node_modules/**"],
     coverage: {
       provider: "v8",
       reporter: ["text", "html", "json-summary", "lcov"],
       include: ["src/**/*.{ts,tsx}"],
       exclude: [
         "src/main.tsx",
-        "src/test/**",
-        "src/data/seed.ts",
-        "src/**/*.test.*",
+        "src/tests/**",
+        "src/seed.ts",
       ],
     },
   },

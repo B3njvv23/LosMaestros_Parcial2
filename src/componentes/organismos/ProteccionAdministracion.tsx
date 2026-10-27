@@ -1,6 +1,6 @@
 import { type ReactNode } from "react";
 import { Navigate } from "react-router-dom";
-import { useStore } from "../../context/Store";
+import { useStore } from "../../Store";
 
 export function ProteccionAdministracion({
   children,

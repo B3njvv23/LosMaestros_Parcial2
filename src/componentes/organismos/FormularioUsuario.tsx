@@ -1,9 +1,9 @@
-import { focusFirstError } from "../../utils/focus";
+import { focusFirstError } from "../../focus";
 import { useState } from "react";
 import type { User, Errors } from "../../types";
-import { users } from "../../data/repository";
-import { regions } from "../../data/seed";
-import { validateUser } from "../../data/validation";
+import { users } from "../../repository";
+import { regions } from "../../seed";
+import { validateUser } from "../../validation";
 import { CampoFormulario } from "../moleculas/CampoFormulario";
 import { Boton } from "../atomos/Boton";
 import { Aviso } from "../atomos/Aviso";

@@ -1,8 +1,8 @@
-import { focusElement } from "../utils/focus";
+import { focusElement } from "../focus";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { users } from "../data/repository";
+import { users } from "../repository";
 
 import { FormularioUsuario } from "../componentes/organismos/FormularioUsuario";
 
@@ -60,4 +60,3 @@ export function Registro({
     </section>
   );
 }
-

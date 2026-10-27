@@ -1,6 +1,6 @@
 import { FormularioLogin } from "../componentes/organismos/FormularioLogin";
 import { Registro } from "./Registro";
-import { focusElement } from "../utils/focus";
+import { focusElement } from "../focus";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -74,4 +74,3 @@ export function IniciarSesion() {
     </section>
   );
 }
-

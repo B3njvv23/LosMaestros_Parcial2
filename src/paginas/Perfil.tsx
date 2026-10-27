@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Navigate } from "react-router-dom";
-import { useStore } from "../context/Store";
-import { users } from "../data/repository";
+import { useStore } from "../Store";
+import { users } from "../repository";
 
 import { FormularioUsuario } from "../componentes/organismos/FormularioUsuario";
 
@@ -30,4 +30,3 @@ export function Perfil() {
     </section>
   );
 }
-

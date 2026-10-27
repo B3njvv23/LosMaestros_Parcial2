@@ -1,4 +1,4 @@
-import { assetUrl } from "../../data/assets";
+import { assetUrl } from "../../assets";
 export interface ArticleBlock {
   kind: string;
   text?: string;

@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import articles from "../data/articles.json";
+import articles from "../articles.json";
 import { Articulo } from "../componentes/organismos/Articulo";
 
 export function DetalleNovedad() {
@@ -13,4 +13,3 @@ export function DetalleNovedad() {
     </>
   );
 }
-

@@ -1,7 +1,7 @@
-import { focusFirstError } from "../../utils/focus";
+import { focusFirstError } from "../../focus";
 import { useState } from "react";
-import { messages } from "../../data/repository";
-import { validateContact } from "../../data/validation";
+import { messages } from "../../repository";
+import { validateContact } from "../../validation";
 import type { Errors } from "../../types";
 import { CampoFormulario } from "../moleculas/CampoFormulario";
 import { Boton } from "../atomos/Boton";

@@ -1,12 +1,12 @@
 import { BotonEnlace } from "../componentes/atomos/BotonEnlace";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import { products, money, price } from "../data/repository";
-import { useStore } from "../context/Store";
+import { products, money, price } from "../repository";
+import { useStore } from "../Store";
 import { Aviso } from "../componentes/atomos/Aviso";
 import { Boton } from "../componentes/atomos/Boton";
 import { ImagenProducto } from "../componentes/atomos/ImagenProducto";
-import { isReferenceImage } from "../data/images";
+import { isReferenceImage } from "../images";
 export function DetalleProducto() {
   const { id } = useParams();
   const p = products.get(id || "");
@@ -68,4 +68,3 @@ export function DetalleProducto() {
     </>
   );
 }
-

@@ -1,6 +1,6 @@
 import { Component, type ReactNode } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { StoreProvider } from "./context/Store";
+import { StoreProvider } from "./Store";
 import { Estructura } from "./componentes/organismos/Estructura";
 import { Productos } from "./paginas/Productos";
 import { DetalleProducto } from "./paginas/DetalleProducto";
@@ -114,4 +114,3 @@ export function App() {
     </ErrorBoundary>
   );
 }
-

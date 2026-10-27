@@ -1,8 +1,8 @@
-import { focusElement, focusPanel } from "../utils/focus";
+import { focusElement, focusPanel } from "../focus";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useStore } from "../context/Store";
-import { users } from "../data/repository";
+import { useStore } from "../Store";
+import { users } from "../repository";
 import type { User } from "../types";
 
 import { FormularioUsuario } from "../componentes/organismos/FormularioUsuario";
@@ -169,4 +169,3 @@ export function AdministrarUsuarios() {
     </>
   );
 }
-

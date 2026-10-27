@@ -1,4 +1,4 @@
-import { focusElement, focusFirstError } from "../utils/focus";
+import { focusElement, focusFirstError } from "../focus";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import type { Errors } from "../types";
@@ -6,7 +6,7 @@ import {
   recoverPassword,
   validateRecovery,
   type RecoveryInput,
-} from "../data/account";
+} from "../account";
 import { CampoFormulario } from "../componentes/moleculas/CampoFormulario";
 import { Boton } from "../componentes/atomos/Boton";
 import { Aviso } from "../componentes/atomos/Aviso";
@@ -101,4 +101,3 @@ export function RecuperarContrasena() {
     </section>
   );
 }
-

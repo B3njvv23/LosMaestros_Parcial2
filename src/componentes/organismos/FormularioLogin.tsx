@@ -1,9 +1,9 @@
-import { focusFirstError } from "../../utils/focus";
+import { focusFirstError } from "../../focus";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useStore } from "../../context/Store";
+import { useStore } from "../../Store";
 
-import { emailValid } from "../../data/validation";
+import { emailValid } from "../../validation";
 import type { Errors } from "../../types";
 
 import { CampoFormulario } from "../moleculas/CampoFormulario";

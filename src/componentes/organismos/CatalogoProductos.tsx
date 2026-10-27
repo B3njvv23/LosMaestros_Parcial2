@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { products, filterProducts } from "../../data/repository";
-import { useStore } from "../../context/Store";
+import { products, filterProducts } from "../../repository";
+import { useStore } from "../../Store";
 import type { Product } from "../../types";
 import { ListaProductos } from "./ListaProductos";
 import { CampoFormulario } from "../moleculas/CampoFormulario";

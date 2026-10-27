@@ -1,10 +1,10 @@
 import { BotonEnlace } from "../atomos/BotonEnlace";
 import { Link } from "react-router-dom";
 import type { Product } from "../../types";
-import { money, price } from "../../data/repository";
+import { money, price } from "../../repository";
 import { Boton } from "../atomos/Boton";
 import { ImagenProducto } from "../atomos/ImagenProducto";
-import { isReferenceImage } from "../../data/images";
+import { isReferenceImage } from "../../images";
 export function CardProducto({
   product: p,
   onAdd,

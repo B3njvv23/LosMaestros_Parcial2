@@ -217,7 +217,7 @@ textarea {
   position: absolute;
   z-index: -2;
   inset: 0;
-  background: url("./assets/img/banner_maestros.jpg") center right/cover
+  background: url("/img/banner_maestros.jpg") center right/cover
     no-repeat;
 }
 .hero:after {
@@ -1055,7 +1055,7 @@ textarea {
 .login-shell {
   background:
     linear-gradient(90deg, rgba(5, 23, 34, 0.8), rgba(5, 23, 34, 0.76)),
-    url("./assets/img/banner_maestros.jpg") center/cover no-repeat;
+    url("/img/banner_maestros.jpg") center/cover no-repeat;
   background-color: var(--navy-deep);
 }
 .login-shell .utility-bar {
@@ -1379,4 +1379,3 @@ textarea {
   gap: 8px;
   margin-top: auto;
 }
-

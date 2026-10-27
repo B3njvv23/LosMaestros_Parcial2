@@ -1,4 +1,4 @@
-import { assetUrl } from "../data/assets";
+import { assetUrl } from "../assets";
 import { Link } from "react-router-dom";
 
 const news = [
@@ -43,4 +43,3 @@ export function Novedades() {
     </>
   );
 }
-

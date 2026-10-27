@@ -1,7 +1,7 @@
-import { assetUrl } from "../../data/assets";
+import { assetUrl } from "../../assets";
 import { useState } from "react";
 import type { Product } from "../../types";
-import { productImage } from "../../data/images";
+import { productImage } from "../../images";
 export function ImagenProducto({
   product,
   className = "",

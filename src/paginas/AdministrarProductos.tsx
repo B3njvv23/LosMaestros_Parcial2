@@ -1,8 +1,8 @@
-import { focusElement, focusPanel } from "../utils/focus";
+import { focusElement, focusPanel } from "../focus";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { products, filterProducts, money } from "../data/repository";
+import { products, filterProducts, money } from "../repository";
 import type { Product } from "../types";
 import { FormularioProducto } from "../componentes/organismos/FormularioProducto";
 
@@ -169,4 +169,3 @@ export function AdministrarProductos() {
     </>
   );
 }
-

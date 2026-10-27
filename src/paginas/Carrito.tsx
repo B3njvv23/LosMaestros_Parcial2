@@ -1,8 +1,8 @@
-import { focusElement } from "../utils/focus";
+import { focusElement } from "../focus";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useStore } from "../context/Store";
-import { products, money, price } from "../data/repository";
+import { useStore } from "../Store";
+import { products, money, price } from "../repository";
 import { Boton } from "../componentes/atomos/Boton";
 import { Aviso } from "../componentes/atomos/Aviso";
 export function Carrito() {
@@ -109,4 +109,3 @@ export function Carrito() {
     </>
   );
 }
-

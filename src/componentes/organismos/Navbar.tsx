@@ -1,7 +1,7 @@
-import { assetUrl } from "../../data/assets";
+import { assetUrl } from "../../assets";
 import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import { useStore } from "../../context/Store";
+import { useStore } from "../../Store";
 import { Boton } from "../atomos/Boton";
 import { Icono } from "../atomos/Icono";
 export function Navbar() {
