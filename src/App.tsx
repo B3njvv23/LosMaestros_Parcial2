@@ -8,6 +8,10 @@ import { Contacto } from "./paginas/Contacto";
 import { Nosotros } from "./paginas/Nosotros";
 import { Novedades } from "./paginas/Novedades";
 import { DetalleNovedad } from "./paginas/DetalleNovedad";
+import { IniciarSesion } from "./paginas/IniciarSesion";
+import { Registro } from "./paginas/Registro";
+import { Perfil } from "./paginas/Perfil";
+import { RecuperarContrasena } from "./paginas/RecuperarContrasena";
 
 export function App() {
   return (
@@ -22,6 +26,10 @@ export function App() {
             <Route path="nosotros" element={<Nosotros />} />
             <Route path="novedades" element={<Novedades />} />
             <Route path="novedades/:id" element={<DetalleNovedad />} />
+            <Route path="login" element={<IniciarSesion />} />
+            <Route path="registro" element={<Registro />} />
+            <Route path="perfil" element={<Perfil />} />
+            <Route path="recuperar-contrasena" element={<RecuperarContrasena />} />
             <Route
               path="*"
               element={
